@@ -1,0 +1,116 @@
+body {
+    background-color:  #eee;
+}
+.title {
+
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    /*padding: 5rem;*/
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.card {
+    margin-left: 5rem;
+    width:85%;
+}
+
+.filter-wrap {
+    margin-left: 5rem;
+}
+
+.filter-input {
+    width:50rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.input-wrap:first-child {
+    margin-left: 2rem !important;
+}
+
+#btnSearchPlaces {
+    height: 3rem;
+}
+
+.img-fluid {
+    height:100%;
+}
+
+
+/*badge*/
+.badge-primary {
+   background-color: darkslateblue;
+    font-size: 0.7rem;
+}
+
+/*map*/
+#map {
+    height: 25rem;
+}
+body.modal {
+    overflow: visible;
+}
+
+@media screen and (max-width: 420px) {
+    .container:first-child {
+        padding: 0;
+    }
+
+    .filter-input {
+        width: 100%;
+    }
+
+    .filter-wrap {
+        margin-left: 0;
+    }
+
+    .filter-input .col-lg-4 {
+        padding: 0;
+    }
+
+    .filter-input label {
+        font-size: 0.9rem;
+    }
+
+    input {
+        font-size: 0.8rem;
+    }
+
+    .input-wrap {
+        margin-left: 1rem !important;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .select-wrap {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+}

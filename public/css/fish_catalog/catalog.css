@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+}
+
+.card  {
+    margin-left: 3rem !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card:hover {
+    border-width: .1rem;
+    border-color: #0000b8;
+    transition: 0.1s all ease-in-out;
+}
+
+.searchbox {
+    padding-left: 2.1rem;
+}
+
+.fish-link {
+    text-decoration: none;
+    color:#212529;
+}
+
+.new_pagination {
+    padding-left: 46rem;
+}
+
+/*filter*/
+.form-check-input:checked {
+    background-color: red;
+    border-color: red;
+}
+
+.red-fish {
+    border-color: red;
+    border-width: .2rem;
+}
+
+.red-fish:hover {
+    border-color: darkred;
+    border-width: .2rem;
+}
+
+.red-fish:hover h4 {
+    color:darkred;
+}
+
+.red-fish h4 {
+    color:red;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    .row {
+        margin-top: 0 !important;
+    }
+
+    .card {
+        margin-top: 1rem !important;
+    }
+
+    .searchbox {
+        padding: 0 !important;
+    }
+
+    .filter-input {
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+    }
+}

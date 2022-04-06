@@ -1,0 +1,62 @@
+:root {
+    --nav-bg-color: #0000b8;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-color: #f3f5f7;
+}
+
+header nav {
+    background-color: var(--nav-bg-color);
+}
+
+/*.nav .active {*/
+/*    color: white !important;*/
+/*}*/
+
+.nav-link {
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    color: black !important;
+    background-color: white;
+    transition: .3s;
+}
+
+.text-secondary {
+    color: #aaaaaa !important;
+}
+
+.btn-light:hover {
+    background-color: lightgray;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.spinner-border {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+@media screen and (max-width: 420px) {
+    .text-end span {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .search .btn-success {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

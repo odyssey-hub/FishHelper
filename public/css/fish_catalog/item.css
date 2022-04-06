@@ -1,0 +1,29 @@
+.content div {
+    text-align: justify;
+}
+
+.content .container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+
+img {
+    height: 35rem;
+}
+
+.fish-names p:first-child{
+    margin-bottom: 0;
+}
+
+.biological p{
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 420px) {
+    .fish-slider {
+        display: none;
+    }
+}

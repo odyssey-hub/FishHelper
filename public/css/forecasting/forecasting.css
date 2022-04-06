@@ -1,0 +1,131 @@
+/*input*/
+.filter-wrap {
+    margin-left: 5rem;
+}
+
+.filter-input {
+    width:50rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.input-wrap:first-child {
+    margin-left: 2rem !important;
+}
+
+/*cards*/
+.card, .card-factors {
+    margin-left: 5rem !important;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.card-factors .card-text {
+    margin: 0;
+}
+
+.card-location .card-text {
+    margin:0;
+    color: darkred;
+}
+
+.card-location .card-text::before{
+    content: "(-)";
+    color:darkred;
+}
+
+.card-location .card-text.isOn::before {
+    content: "(+)";
+    color: mediumseagreen;
+}
+
+.card-location .card-text.isOn {
+    color: mediumseagreen;
+}
+
+.location-factors {
+    padding-right: 2rem;
+}
+
+.card-footer {
+    background-color: whitesmoke;
+}
+
+.quality-label {
+    padding-left: 2rem !important;
+}
+
+/*progress*/
+
+.progress2:hover  .progress-bar2{
+    transition-duration: 0.1s !important;
+    border-color: #049dff !important;
+}
+.progress2:hover  .progress-value{
+    transition-duration: 0.1s;
+    color: #049dff !important;
+}
+
+.progress2:hover  .percent{
+    transition-duration: 0.1s;
+    color: #049dff !important;
+}
+
+
+/*map*/
+.btn-show-map:hover {
+    filter: brightness(85%);
+}
+
+#map {
+    height: 25rem;
+}
+body.modal {
+    overflow: visible;
+}
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    .container:first-child {
+        padding: 0;
+    }
+
+    .filter-input {
+        width: 100%;
+    }
+
+    .filter-wrap {
+        margin-left: 0;
+    }
+
+    .filter-input .col-lg-4 {
+        padding: 0;
+    }
+
+    .filter-input label {
+        font-size: 0.9rem;
+    }
+
+    input {
+        font-size: 0.8rem;
+    }
+
+    .input-wrap {
+        margin-left: 0 !important;
+    }
+
+    .card {
+        margin: 0 !important;
+    }
+
+    .select-wrap {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+}

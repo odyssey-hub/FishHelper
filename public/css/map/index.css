@@ -1,0 +1,81 @@
+#map {
+    height: 50rem;
+}
+
+.ymaps-2-1-79-islets_icon-caption {
+    display: none;
+}
+
+
+/*panel */
+.hr-theme-slash-2 {
+    display: flex;
+}
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #000;
+}
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
+}
+
+
+.panel {
+    width: 30rem;
+    height: 42rem;
+    background: whitesmoke;
+    position: absolute;
+    top: 18rem;
+    left: 5rem;
+    /*border: solid 1px deepskyblue;*/
+    padding: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.cards p, .cards h5 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*modals*/
+.modal-header {
+  background-color: #0000b8;
+    color:white;
+}
+
+.modal-footer-delete button {
+    width: 10rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    img {
+        display: none !important;
+    }
+
+    .panel {
+        width: 23rem;
+        position: initial;
+    }
+}
+
+
+
+
+
+
+
+
+

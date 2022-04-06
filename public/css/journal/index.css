@@ -1,0 +1,82 @@
+/*content*/
+.cards .card {
+    width: 90%;
+}
+
+.sidebar .card-header {
+    /*background-color: #0000f1;*/
+    background-color: lavender;
+
+}
+
+.sidebar h5 {
+    /*color: aliceblue;*/
+    color: black;
+}
+
+.sidebar .btn-primary {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    width: 100%;
+}
+
+.sidebar .btn-danger {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    width: 100%;
+}
+
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.btn-remove {
+    padding:0 0.5rem;
+    cursor: pointer;
+}
+
+.btn-remove:hover .fas{
+    color:red !important;
+}
+
+.fa-edit:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+/*autcomplete*/
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    padding-right: 20px;
+}
+
+/*modals*/
+.modal-header {
+    background-color: #0000b8;
+    color:white;
+}
+
+.modal-footer-delete button {
+    width: 10rem;
+}
+ul.ui-autocomplete {
+    z-index: 1100;
+}
+
+.star-required {
+    color:red;
+}
+
+/*alerts*/
+.container-alert {
+    padding-right:12rem;
+}
+
+
+
+

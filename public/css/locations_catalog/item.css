@@ -1,0 +1,55 @@
+.content div {
+    text-align: justify;
+}
+
+.content .container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.carousel-item img {
+    height: 35rem;
+}
+
+.card  {
+    flex: 0 0 auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card:hover {
+    border-width: .1rem;
+    border-color: #0000b8;
+    transition: 0.1s all ease-in-out;
+}
+
+.card:not(:nth-child(1))  {
+    margin-left: 3rem !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card:hover {
+    border-width: .1rem;
+    border-color: #0000b8;
+    transition: 0.1s all ease-in-out;
+}
+
+.fish-link {
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#map {
+    height: 40rem;
+}

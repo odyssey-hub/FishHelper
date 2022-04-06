@@ -1,0 +1,12 @@
+.form-check-input:checked {
+    background-color: red;
+    border-color: red;
+}
+
+.postcard__title.red {
+    color: darkred;
+}
+
+.red .tag__item {
+    background-color: darksalmon !important;
+}

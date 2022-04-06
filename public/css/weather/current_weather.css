@@ -1,0 +1,76 @@
+.card {
+    padding: 1.2rem 2rem 0.5rem 2rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033
+}
+
+@media(max-width:767px) {
+    .card {
+        height: 10rem;
+        padding: 1.5rem 1.5rem 1rem 1.5rem
+    }
+}
+
+.img-fluid {
+    float: right;
+    width: 65%;
+    display: flex;
+    align-items: center
+}
+
+.row2 .img-fluid {
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 70%
+}
+
+.card-2 .row {
+    justify-content: center
+}
+
+.card-3 .row {
+    justify-content: center
+}
+
+.row1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black
+}
+
+.row3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black
+}
+
+@media(max-width:400px) {
+    .row3 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+@media(max-width:320px) {
+    .row3 {
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+
+.card-3 .row3 {
+    margin: 5% 0 2.5rem
+}
+
+.col {
+    overflow: visible
+}
+
+.row {
+    overflow: visible
+}

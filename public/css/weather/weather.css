@@ -1,0 +1,106 @@
+/*General*/
+.filter-wrap {
+    margin-left: 5rem;
+}
+
+.filter-input {
+    width:50rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.input-wrap:first-child {
+    margin-left: 2rem !important;
+}
+
+#btnSearchPlaces {
+    height: 3rem;
+}
+
+
+
+/*Weather*/
+.weather-items .row {
+    color: #eaeaea;
+}
+
+.weather-details  {
+    color: #eaeaea !important;
+}
+
+.weather-details {
+    padding: 0.2rem !important;
+}
+.weather-details p {
+    font-size: 1.15rem;
+    margin-bottom: .2rem;
+}
+
+.weather-details .fas {
+    text-align: center;
+    width: 20px;
+    height: 16px;
+}
+
+.temp-parts p {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+/*Map*/
+#map {
+    height: 25rem;
+}
+body.modal {
+    overflow: visible;
+}
+
+
+
+/*Charts*/
+.T-chart, .P-chart {
+    background: ghostwhite;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 420px) {
+    .searchbox {
+        padding: 0 !important;
+    }
+
+    .form-select {
+        margin: 0 !important;;
+    }
+
+    .input-wrap {
+        padding: 0 0.5rem;
+    }
+
+    .filter-input {
+        width: auto;
+    }
+
+    .weather-details:last-child {
+        font-size: 1.4rem !important;
+    }
+
+    .weather-details.card {
+        height: 30rem;
+    }
+
+    .filter-wrap {
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+    }
+
+    form .btn-primary {
+        margin-top: 0.5rem !important;
+        width: 100%;
+    }
+}
+
